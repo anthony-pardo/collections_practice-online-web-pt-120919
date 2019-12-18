@@ -56,3 +56,4 @@ end
 def find_a(arr)
   arr.select { |string| string[0] == 'a' }
 end
+
