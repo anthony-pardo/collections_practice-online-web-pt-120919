@@ -34,13 +34,10 @@ def swap_elements(arr)
 end
 
 def reverse_array(arr)
-  arr.sort do |a, b|
-    if a == b 
-      0 
-    elsif a < b 
-      1 
-    else 
-      -1 
-    end
+  i = 0 
+  while i < arr.length / 2 do 
+    temp = arr[i] 
+    arr[i] = arr[-1 - i]
+    i += 1
   end
 end
