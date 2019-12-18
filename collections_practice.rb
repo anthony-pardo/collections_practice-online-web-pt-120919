@@ -57,3 +57,6 @@ def find_a(arr)
   arr.select { |string| string[0] == 'a' }
 end
 
+def sum_array(arr)
+  arr.inject(0) { |acc, res| acc + res }
+end
