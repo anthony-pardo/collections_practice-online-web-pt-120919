@@ -33,4 +33,14 @@ def swap_elements(arr)
   arr 
 end
 
-def 
+def reverse_array(arr)
+  arr.sort do |a, b|
+    if a == b 
+      0 
+    elsif a < b 
+      1 
+    else 
+      -1 
+    end
+  end
+end
