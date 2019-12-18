@@ -41,4 +41,5 @@ def reverse_array(arr)
     arr[-1 - i] = temp 
     i += 1
   end
+  arr
 end
