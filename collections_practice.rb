@@ -38,6 +38,7 @@ def reverse_array(arr)
   while i < arr.length / 2 do 
     temp = arr[i] 
     arr[i] = arr[-1 - i]
+    arr[-1 - i] = temp 
     i += 1
   end
 end
