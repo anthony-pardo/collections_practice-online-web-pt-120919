@@ -4,7 +4,7 @@ end
 
 def sort_array_desc(arr)
   arr.sort do |a, b|
-    if b < a 
+    if a == b 
       return true 
     else 
       return false 
